@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+	xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:swift-common="https://gbusiness.ph/schemas/swift/common"
+	xsi:schemaLocation="https://gbusiness.ph/schemas/swift/common ../resources/META-INF/swift/common/schemas/swift-common-types.xsd"
+	jaxb:extensionBindingPrefixes="xjc" version="2.1">
+
+	<jaxb:globalBindings>
+<!-- 		<jaxb:javaType name="java.util.UUID" xmlType="swift-common:uuid" -->
+<!-- 				parseMethod="java.util.UUID.fromString" -->
+<!-- 				printMethod="java.util.Objects.toString" /> -->
+<!-- 		<jaxb:javaType name="java.util.Calendar" xmlType="swift-common:dateTime" -->
+<!-- 				parseMethod="com.gbusiness.lbm.types.bind.DateTimeAdapter.marshal" -->
+<!-- 				printMethod="com.gbusiness.lbm.types.bind.DateTimeAdapter.unmarshal" /> -->
+		<xjc:serializable uid="1" />
+	</jaxb:globalBindings>
+	
+</jaxb:bindings>
